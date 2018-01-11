@@ -1,0 +1,10 @@
+<!DOCTYPE AbsoluteMove [
+  <!ELEMENT AbsoluteMove (ProfileToken, Position)>
+  <!ELEMENT ProfileToken (#PCDATA)>
+  <!ELEMENT Position (PanTilt, Zoom)>
+  <!ELEMENT PanTilt EMPTY>
+  <!ATTLIST PanTilt x CDATA #REQUIRED>
+  <!ATTLIST PanTilt y CDATA #REQUIRED>
+  <!ELEMENT Zoom EMPTY>
+  <!ATTLIST Zoom x CDATA #REQUIRED>
+]>
