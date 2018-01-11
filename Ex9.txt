@@ -1,0 +1,5 @@
+> db.products.update( 
+    { Discontinued: 1 }, 
+    { $set: { UnitsInStock: 5 }},
+    {multi: true} 
+)
